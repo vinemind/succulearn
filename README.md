@@ -1,0 +1,2 @@
+# succulearn
+ learn about succulents
