@@ -1,0 +1,271 @@
+
+h1{
+    font-size: 75px;
+}
+
+
+p{
+    font-size: 16.5px;
+    line-height: 20px;
+    font-family: argent-cf, serif;
+    font-weight: 400;
+    font-style: normal;
+    max-width:550px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+h3{
+font-family: neighbor, sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size:35px;
+}
+
+h4{
+    font-family: argent-cf, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:30px;
+    text-align: center;
+    margin-bottom:-10px;
+}
+
+.header{
+    width:100%;
+    justify-content:center;
+    display:grid;
+    text-align: center;
+    font-family: argent-cf, serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size:20px;
+    margin-bottom:50px;
+}
+
+hr.title-line{
+    width:20%;
+    margin: 0 auto 5px auto;
+    height:2px;
+    border-width:2px;
+    border-radius:5px;
+    border-color:black;
+    background-color: rgb(0, 0, 0);
+}
+
+
+a.option-links{
+    font-family: argent-cf, serif;
+    font-weight: 600;
+    font-style: normal;
+font-size:18px;
+text-align: center;
+text-decoration: none;
+}
+
+a.option-links:link{
+    color:black;
+}
+
+a.option-links:visited {
+    color:black;
+}
+
+a:hover .option-links{
+    color:black;
+}
+
+a:active .option-links{
+    color:black;
+}
+
+.question-line{
+    width: 200px;
+    height: 3px;
+    border-width:2px;
+    border-radius:5px;
+    border-color:black;
+    background-color: rgb(0, 0, 0);
+    margin-top: 15px;
+}
+
+.footer{
+    background-color: black;
+    bottom: 0; 
+    min-height:100px;
+    max-height:300px;
+    margin-top:50px;
+    padding-bottom:30px;
+    padding-top:30px;
+    position:bottom; 
+    width: 100%;
+}
+
+.footer-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    position: center;
+    margin-left:auto;
+    margin-right:auto;
+    width:fit-content;
+}
+
+.footer-grid> .footer-left{
+    font-family: argent-cf, serif;
+    font-weight: 600;
+    font-style: normal;
+    width:fit-content;
+    column-gap: 15px;
+    color:white;
+    text-align:center;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer-grid> .footer-right{
+    font-family: argent-cf, serif;
+    font-weight: 600;
+    font-style: normal;
+    color:white;
+    text-align:center;
+    grid-template-columns: 2fr 3fr 3fr 2fr;
+    display:grid;
+    column-gap: 15px;
+}
+
+.footer-bottom{
+    font-family: argent-cf, serif;
+    font-weight: 600;
+    font-style: normal;
+    color:white;
+    text-align:center;
+    padding: 30px;
+}
+
+.footer-title1{
+    justify-content: center;
+    grid-column: span 3;
+    font-family: argent-cf, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:25px;
+    letter-spacing: .5px;
+}
+
+.footer-title2{
+    text-align:center;
+    grid-column: span 4;
+    font-family: argent-cf, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:25px;
+    letter-spacing: .5px;
+}
+
+.footer-link{
+    width:fit-content;
+    text-align:center;
+}
+
+a.footer-link:link{
+    color: white;
+    text-decoration: none;
+}
+
+a.footer-link:visited{
+    color:rgb(98, 208, 98);
+    text-decoration: none;
+}
+
+a.footer-link:hover{
+    color:rgb(192, 192, 192);
+}
+
+a.footer-link:active{
+    text-decoration:dashed !important;
+}
+
+
+body{
+    margin:0%;
+}
+
+ul.grid-item{
+    margin-top:10px;
+    font-family: argent-cf, serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left:0;
+}
+
+ul{
+    margin-top:10px;
+    font-family: argent-cf, serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left:30%;
+}
+
+
+
+ol{
+    font-size: 16.5px;
+    line-height: 20px;
+    font-family: argent-cf, serif;
+    font-weight: 400;
+    font-style: normal;
+    max-width:550px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+ol>li{
+    margin-bottom:100px;
+}
+
+img{
+    width:300px;
+}
+
+.grid-container{
+    display:grid;
+    grid-template-columns: 400px 400px 400px;
+    height: fit-content;
+    grid-gap:30px;
+    justify-content: center;
+    font-family: argent-cf, serif;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom:30px;
+    width:100%;
+}
+
+.grid-container2{
+    display:grid;
+    grid-template-columns: 400px 400px;
+    height: 400px;
+    grid-gap:5px;
+    justify-content: center;
+    font-family: argent-cf, serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.mid-line{
+    width:70px;
+    margin: 30px auto 30px auto;
+    height:5px;
+    border-width:2px;
+    border-radius:5px;
+    border-color:black;
+    background-color: rgb(0, 0, 0);
+}
+
+.grid-text{
+    font-family: argent-cf, serif;
+font-weight: 400;
+font-style: italic;
+font-size: 13px;
+text-align:center;
+
+}
